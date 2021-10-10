@@ -91,16 +91,17 @@ namespace HWArrays
             for (int i = 0; i < arrayFifth.Length; i++)
             {
                 arrayFifth[i] = random.Next(1, 100);
+               
             }
             int sumNechet = 0;
-            int indexNechet = arrayFifth[0];
+            
             for (int i = 0; i < arrayFifth.Length; i++)
             {
-                indexNechet = arrayFifth[i];
-                if (indexNechet % 2 != 0)
+                int nechElemnt = arrayFifth[i];
+                if (nechElemnt % 2 != 0)
                 {
 
-                    sumNechet = sumNechet + indexNechet;
+                    sumNechet = sumNechet + nechElemnt;
                 }
 
                 Console.Write(arrayFifth[i] + " ");
@@ -149,15 +150,15 @@ namespace HWArrays
             }
             int sumnecht = 0;
 
-            int nechet = array7[0];
+            int nechet7 = array7[0];
             for (int i = 0; i < array7.Length; i++)
             {
-                if (nechet % 2 != 0)
+                if (nechet7 % 2 != 0)
                 {
 
                     sumnecht = sumnecht + 1;
                 }
-                nechet = array7[i];
+                nechet7 = array7[i];
                 Console.Write(array7[i] + " ");
             }
 
@@ -200,45 +201,39 @@ namespace HWArrays
                 Console.Write(arrayEight[i] + " ");
             }
             Console.WriteLine();
-            //Отсортировать массив по возрастанию одним из способов:
-            //пузырьком(Bubble), выбором (Select) или вставками (Insert)) 
+
             Console.WriteLine("Array9");
-
-
             int[] arrayNine = new int[10];
-
             for (int i = 0; i < arrayNine.Length; i++)
             {
                 arrayNine[i] = random.Next(1, 100);
+                Console.Write( arrayNine[i]+ " ");
             }
-            for (int i = 0; i < arrayNine.Length; i++)
-            {
-                Console.Write(arrayNine[i] + " ");
-            }
-
             Console.WriteLine();
-
-            int tmpSortBubble = arrayNine[0];
-
-            for (int i = 0; i < arrayNine.Length - 1; i++)
+            int l = arrayNine.Length;
+            for (int i = 0; i < l-1; i++)
             {
-                for (int j9 = 0; j9 < arrayNine.Length - i - 1; j9++)
+                int minValue = arrayNine[i];
+                int minIndex = i; 
+                for (int o = i+1; o < l; o++)
                 {
-                    if (arrayNine[j9 + 1] < arrayNine[j9])
+                    if(minValue>arrayNine[o])
                     {
-                        tmpSortBubble = arrayNine[j9 + 1];
-                        arrayNine[j9 + 1] = arrayNine[j9];
-                        arrayNine[j9] = tmpSortBubble;
+                        minValue = arrayNine[o];
+                        minIndex = o;
                     }
                 }
-            }
-            for (int i = 0; i < arrayNine.Length; i++)
-            {
-                Console.Write(arrayNine[i] + " ");
-            }
-            Console.WriteLine();
 
-
+                    minValue = arrayNine[i];
+                    arrayNine[i] = arrayNine[minIndex];
+                    arrayNine[minIndex] = minValue;
+                    foreach (var item in arrayNine)
+                     {
+                    Console.Write(item + " ");
+                     }
+                Console.WriteLine();
+            }
+            
             Console.WriteLine("Array10");
 
             int[] arrayTen = new int[10];

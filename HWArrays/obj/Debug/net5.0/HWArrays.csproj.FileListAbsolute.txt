@@ -1,0 +1,16 @@
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\HWArrays.exe
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\HWArrays.deps.json
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\HWArrays.runtimeconfig.json
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\HWArrays.runtimeconfig.dev.json
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\HWArrays.dll
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\ref\HWArrays.dll
+C:\Users\Asus\source\repos\HWArrays\HWArrays\bin\Debug\net5.0\HWArrays.pdb
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.AssemblyInfo.cs
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.dll
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\ref\HWArrays.dll
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.pdb
+C:\Users\Asus\source\repos\HWArrays\HWArrays\obj\Debug\net5.0\HWArrays.genruntimeconfig.cache
